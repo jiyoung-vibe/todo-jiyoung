@@ -66,3 +66,38 @@ p span#count {
   font-weight: bold;
   color: #0a8f8f;
 }
+
+/* 줄 안: 체크박스, 글자, 삭제 버튼을 한 줄에 */
+ul#list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+ul#list li span {
+  flex: 1;
+}
+
+ul#list li input[type="checkbox"] {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+}
+
+/* 체크된 줄은 글자에 줄을 긋는다 */
+ul#list li.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+ul#list li button {
+  flex-shrink: 0;
+  min-width: 64px;
+  min-height: 44px;
+  font-size: 1rem;
+  color: #0a8f8f;
+  background: #ffffff;
+  border: 2px solid #0a8f8f;
+  border-radius: 8px;
+  cursor: pointer;
+}
