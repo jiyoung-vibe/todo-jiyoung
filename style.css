@@ -1,0 +1,68 @@
+/* 색: 청록과 흰색 */
+body {
+  margin: 0;
+  padding: 16px;
+  background: #ffffff;
+  color: #0f5f5f;
+  font-family: system-ui, -apple-system, "Malgun Gothic", sans-serif;
+  line-height: 1.6;
+}
+
+/* 제목은 크게 */
+h1 {
+  font-size: 1.9rem;
+  color: #0a8f8f;
+  margin: 8px 0 20px;
+}
+
+/* 입력칸과 추가 버튼: 휴대폰에서 누르기 쉽게 */
+input#item {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 48px;
+  padding: 10px 14px;
+  font-size: 1.05rem;
+  border: 2px solid #0a8f8f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button#add {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #0a8f8f;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* 목록은 읽기 편하게, 줄 사이는 넉넉하게 */
+ul#list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+ul#list li {
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  background: #e6f6f6;
+  border-left: 6px solid #0a8f8f;
+  border-radius: 8px;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-top: 16px;
+}
+
+p span#count {
+  font-weight: bold;
+  color: #0a8f8f;
+}
